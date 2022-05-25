@@ -20,7 +20,7 @@ public class TestNG_Include_Exclude {
 	@Test
 	public void zomato() {
 		driver.get("https://www.zomato.com");
-		driver.findElement(By.xpath("/html/body/div[1]/div/div[3]/div[2]/div[2]/div/div[3]/input")).sendKeys("biryani");
+		
 	}
 	
 	
