@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Log4j.log4j">
+      <class name="actionClass.MouseOver">
         <methods>
-          <include name="log4jmethod"/>
+          <include name="mouseOver"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- Log4j.log4j -->
+      </class> <!-- actionClass.MouseOver -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
