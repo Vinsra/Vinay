@@ -5,7 +5,7 @@
     <classes>
       <class name="actionClass.MouseOver">
         <methods>
-          <include name="mouseOver"/>
+          <include name="dragAndDrop"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- actionClass.MouseOver -->
